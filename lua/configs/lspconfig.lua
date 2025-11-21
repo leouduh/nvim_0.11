@@ -2,7 +2,7 @@ require("nvchad.configs.lspconfig").defaults()
 
 
 -- Configure Pyright with dynamic Python path (works with uv)
-local servers = { "html", "cssls" , "pyright"}
+local servers = { "html", "cssls" , "pyrefly", "gopls"}
 
 vim.lsp.enable({ "html", "cssls" })
 vim.lsp.enable(servers)

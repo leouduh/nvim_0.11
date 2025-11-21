@@ -41,10 +41,10 @@ return {
     lazy=false,
   },
 
-  -- {
-  --   "tribela/vim-transparent",
-  --   lazy=false,
-  -- },
+  {
+    "tribela/vim-transparent",
+    lazy=false,
+  },
 
   {
     "windwp/nvim-ts-autotag",
